@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/rain-metal'         //do change this
         // Use Jenkins build number as part of the image tag
         IMAGE_TAG = "build-${BUILD_NUMBER}"
-        GITHUB_URL = 'https://github.com/narayanrai10/rain-lb-deploy'  //do change this
+        GITHUB_URL = 'https://github.com/narayanrai10/lb-example'  //do change this
         
         KUBECONFIG = credentials('rain-225')  //do change this
     }
